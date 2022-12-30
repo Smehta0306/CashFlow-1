@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<script type="text/javascript" src="form.js"></script>
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -268,7 +269,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 									<form method="post" action="#">
 										<div class="row gtr-uniform">
 											<div class="col-6 col-12-xsmall">
-												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Enter mock phone number" />
+												<input type="text" name="demo-number" id="demo-number" value="" placeholder="Enter mock phone number" />
 											</div>
 											<div class="col-6 col-12-xsmall">
 												<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
@@ -307,7 +308,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 											</div> -->
 											<div class="col-12">
 												<ul class="actions">
-													<li><input type="submit" value="Provide Consent" class="primary" /></li>
+													<li><input type="submit" value="Provide Consent" class="primary" onclick="call()" /></li>
 													<li><input type="reset" value="Reset" /></li>
 												</ul>
 											</div>
